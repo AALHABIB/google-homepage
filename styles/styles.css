@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header a {
+    text-decoration: none;
+}
