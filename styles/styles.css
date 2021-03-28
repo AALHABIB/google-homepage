@@ -18,6 +18,7 @@ header a {
 .body-container {
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 .form-container {
@@ -41,3 +42,20 @@ header a {
     align-self: center;
 }
 
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+}
