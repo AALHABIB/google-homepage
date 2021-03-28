@@ -40,7 +40,12 @@ header a {
 }
 
 .header-sign-in {
-
+    background-color: #4885ed;
+    color: #fff;
+    border:none;
+    border-radius:3px;
+    padding:7px 10px;
+    font-weight:bold;
 }
 /* <!-- ====================================================================== --> */
     /* This section covers the LOGO and FORM == i.e middle of the page == */
