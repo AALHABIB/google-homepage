@@ -1,14 +1,21 @@
+/* <!-- ====================================================================== --> */
+            /* This part makes the HTML and BODY fit the whole screen */
+/* <!-- ====================================================================== --> */
 html, body {
     height: 100%;
 }
-
+/* <!-- ====================================================================== --> */
+            /* This container covers EVERYTHING in a flex box style */
+/* <!-- ====================================================================== --> */
 .body-container {
     height: 100%;
     min-height: 100%;
     display: flex;
     flex-direction: column;
 }
-
+/* <!-- ====================================================================== --> */
+            /* This section covers the HEADER and all its content */
+/* <!-- ====================================================================== --> */
 header {
     display: flex;
     justify-content: center;
@@ -32,7 +39,12 @@ header a {
     color: black;
 }
 
+.header-sign-in {
 
+}
+/* <!-- ====================================================================== --> */
+    /* This section covers the LOGO and FORM == i.e middle of the page == */
+/* <!-- ====================================================================== --> */
 .form-container {
     height: 100%;
     width: 100%;
@@ -59,8 +71,9 @@ header a {
     padding: 25px;
 }
 
-
-
+/* <!-- ====================================================================== --> */
+            /* this section covers the FOOTER and all its content */
+/* <!-- ====================================================================== --> */
 footer {
     display: flex;
     justify-content: center;
